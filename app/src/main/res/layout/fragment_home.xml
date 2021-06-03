@@ -10,4 +10,5 @@
         android:layout_centerInParent="true"
         android:text="@string/home"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
 </RelativeLayout>
