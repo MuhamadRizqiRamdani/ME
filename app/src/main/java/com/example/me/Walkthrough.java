@@ -46,14 +46,14 @@ public class Walkthrough extends AppCompatActivity {
         setContentView(R.layout.activity_walkthrough);
         initComponent();
 
-        if (restorePrefData()) {
-
-            Intent  intent= new Intent(getApplicationContext(),MainActivity.class );
-            startActivity(intent);
-            finish();
-
-
-        }
+//        if (restorePrefData()) {
+//
+//            Intent  intent= new Intent(getApplicationContext(),MainActivity.class );
+//            startActivity(intent);
+//            finish();
+//
+//
+//        }
     }
 
     private void initComponent() {
@@ -72,7 +72,7 @@ public class Walkthrough extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Walkthrough.this, MainActivity.class);
                 startActivity(intent);
-                savePrefsData();
+//                savePrefsData();
                 finish();
             }
         });
@@ -82,30 +82,30 @@ public class Walkthrough extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Walkthrough.this, MainActivity.class);
                 startActivity(intent);
-                savePrefsData();
+//                savePrefsData();
                 finish();
             }
         });
     }
 
-    private boolean restorePrefData() {
-
-
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
-        Boolean isIntroActivityOpnendBefore = pref.getBoolean("isIntroOpnend",false);
-        return  isIntroActivityOpnendBefore;
-
-    }
-
-    private void savePrefsData() {
-
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
-        SharedPreferences.Editor editor = pref.edit();
-        editor.putBoolean("isIntroOpnend",true);
-        editor.commit();
-
-
-    }
+//    private boolean restorePrefData() {
+//
+//
+//        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
+//        Boolean isIntroActivityOpnendBefore = pref.getBoolean("isIntroOpnend",false);
+//        return  isIntroActivityOpnendBefore;
+//
+//    }
+//
+//    private void savePrefsData() {
+//
+//        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
+//        SharedPreferences.Editor editor = pref.edit();
+//        editor.putBoolean("isIntroOpnend",true);
+//        editor.commit();
+//
+//
+//    }
 
     private void bottomProgressDots(int index) {
         LinearLayout dotsLayout = findViewById(R.id.layoutDots);
