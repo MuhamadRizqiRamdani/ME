@@ -1,4 +1,10 @@
 package com.example.me.entity;
+/*
+    NIM             : 10118069
+    Nama            : Muhamad Rizqi Ramdani
+    Kelas           : IF2
+    TGl Pengerjaan  : 4 juni 2021
+  */
 
 //import android.support.v7.widget.RecyclerView;
 
