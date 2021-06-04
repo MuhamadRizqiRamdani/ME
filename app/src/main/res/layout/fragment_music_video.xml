@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--    NIM             : 10118069-->
+<!--    Nama            : Muhamad Rizqi Ramdani-->
+<!--    Kelas           : IF2-->
+<!--    TGl Pengerjaan  : 4 juni 2021-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
 
     <TextView
-        android:id="@+id/tv_music_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/music_video"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-</RelativeLayout>
+        android:layout_width="208dp"
+        android:layout_height="28dp"
+        android:text="My Favorite Music List"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:fontFamily="@font/merienda_one"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_view_music"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_music"
+        android:layout_width="347dp"
+        android:layout_height="577dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+</androidx.constraintlayout.widget.ConstraintLayout>

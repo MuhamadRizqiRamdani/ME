@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--    NIM             : 10118069-->
+<!--    Nama            : Muhamad Rizqi Ramdani-->
+<!--    Kelas           : IF2-->
+<!--    TGl Pengerjaan  : 4 juni 2021-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -23,7 +27,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_got_it"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

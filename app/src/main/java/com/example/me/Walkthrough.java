@@ -1,5 +1,10 @@
 package com.example.me;
-
+/*
+    NIM             : 10118069
+    Nama            : Muhamad Rizqi Ramdani
+    Kelas           : IF2
+    TGl Pengerjaan  : 4 juni 2021
+  */
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;

@@ -8,4 +8,18 @@
     <string name="profile">Profile</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- fragment home -->
+    <string name="fhome_nama">Muhamad Rizqi Ramdani</string>
+    <string name="fhome_nim">10118069</string>
+    <string name="fhome_lahir">Bandung, 10 Desember 2000</string>
+    <string name="fhome_deskripsi">Muhamad Rizqi Ramdani merupakan anak pertama dari 2 bersaudara.
+        Memiliki adik berumur 14 tahun.</string>
+    <string name="fhome_interest">Interest</string>
+    <string name="fhome_hobi">Main Game</string>
+    <string name="fhome_makanan">Indomie Goreng</string>
+    <string name="fhome_minuman">Kopi</string>
+
+    <string name="fprof_about">Version App 1.0</string>
+
 </resources>
